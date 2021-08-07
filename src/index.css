@@ -1,0 +1,35 @@
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
+@import url("https://fonts.google.com/specimen/Amatic+SC");
+
+
+body::-webkit-scrollbar{
+  display: none;
+}
+* {
+  margin: 0;
+}
+.cursive {
+  font-family: "Amatic SC, cursive";
+  font-weight: 700;
+  font:' bold,italics';
+}
+.prose img{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.home-name{
+  font-size: 150px;
+}.side{
+  flex: 0.2; 
+}.rest{
+  flex: 0.8;
+  padding: 40px 20px;
+  padding-bottom: 0;
+}.search{
+  flex:0.8;
+}
+.gren{
+  background-color: #1db954;
+}
